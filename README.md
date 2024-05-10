@@ -5,18 +5,28 @@
 
 <p>Coloquei o caminho do cypress diferente então preferi criar essa etapa pra deixar mais claro.</p>
 
-How to clone your project
+<ol>
+    <li>Clonar repositório</li>
 
 ```bash
 git clone your-project-url-in-github
 ```
-
-<h3>Starting</h3>
-
-How to start your project
+<li>Entrar na pasta do repositório</li>
 
 ```bash
 cd project-name
-npm some-command-to-run
 ```
 
+<li>Instalar as dependências do projeto</li>
+
+```bash
+npm i
+```
+<li>Iniciar o Cypress</li>
+
+```bash
+npm run cy open
+```
+</ol>
+
+<p>Tudo pronto! 🚀🚀 espero que tenha ocorrido tudo certo e qualquer duvida só me chamar!</p>
